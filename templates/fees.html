@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Fee Status</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+
+```
+<div class="card shadow p-4">
+
+    <h2 class="text-success">Fee Status</h2>
+
+    <table class="table table-bordered mt-4">
+
+        <tr>
+            <th>Total Fee</th>
+            <td>₹{{ fees.total_fee }}</td>
+        </tr>
+
+        <tr>
+            <th>Paid Fee</th>
+            <td>₹{{ fees.paid_fee }}</td>
+        </tr>
+
+        <tr>
+            <th>Pending Fee</th>
+            <td class="text-danger">
+                ₹{{ fees.pending_fee }}
+            </td>
+        </tr>
+
+        <tr>
+            <th>Due Date</th>
+            <td>{{ fees.due_date }}</td>
+        </tr>
+
+    </table>
+
+    <div class="alert alert-warning">
+        Please pay the pending fee before the due date to avoid late charges.
+    </div>
+
+    <a href="/dashboard" class="btn btn-secondary">
+        Back to Dashboard
+    </a>
+
+</div>
+```
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.service-card {
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.btn {
+    border-radius: 8px;
+}
