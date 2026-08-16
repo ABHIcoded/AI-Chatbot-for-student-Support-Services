@@ -1,4 +1,4 @@
-#AI Chatbot for student Support Service
+AI Chatbot for student Support Service
 # GNIOT AI Student Support Portal
 
 An AI-powered student support portal built using **Flask, MySQL, and Gemini AI**. The system allows students to log in securely, view attendance, check fee status, see upcoming exams, and interact with an intelligent AI chatbot that answers academic queries using student data.
